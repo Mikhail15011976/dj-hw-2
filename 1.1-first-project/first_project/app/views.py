@@ -36,5 +36,5 @@ def workdir_view(request):
     # который возвращает список файлов в рабочей 
     # директории
 
-    workdir = os.listdir(path='app')
+    workdir = os.listdir(path='first_project')
     return HttpResponse(workdir)
